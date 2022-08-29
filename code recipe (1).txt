@@ -1,0 +1,96 @@
+﻿# base ingredients given to me
+Butter = 0.5 / 16  # cups
+Granulated_sugar = 0.5 / 16  # cups
+Brown_sugar = 0.25 / 16  # cups
+Vanilla = 2 / 16  # cups
+Egg = 1 / 16  # eggs
+Flour = 1.75 / 16  # cups
+Baking_soda = 0.5 / 16  # teaspoons
+Salt = 0.5 / 16  # teaspoons
+Chocolate_chips = 1 / 16  # cups
+serving_base = 24
+# Display original ingredient amounts
+print("")
+print("Chocolate Chip Cookie Recipe")
+print("")
+print(Butter, "\t cups of butter")
+print(Granulated_sugar, "\t cups of sugar")
+print(Brown_sugar, "\t cups of brown sugar")
+print(Vanilla, "\t teaspoons of vanilla")
+print(Egg, "\t egg(s)")
+print(Flour, "\t cups of flour")
+print(Baking_soda, "\t teaspoons of baking soda")
+print(Salt, "\t teaspoons of salt")
+print(Chocolate_chips, "\t cups of chocolate chips")
+
+
+print("")
+serving_quantity = float(input("How many servings would you like?:"))
+# User serving quantity
+Butter = 0.5 / 16 * serving_quantity
+Granulated_sugar = 0.5 / 16 * serving_quantity
+Brown_sugar = 0.25 / 16 * serving_quantity
+Vanilla = 2 / 16 * serving_quantity
+Egg = 1 / 16 * serving_quantity
+Flour = 1.75 / 16 * serving_quantity
+Baking_soda = 0.5 / 16 * serving_quantity
+Salt = 0.5 / 16 * serving_quantity
+Chocolate_chips = 1 / 16 * serving_quantity
+
+
+print("")
+print("Chocolate Chip Cookie Recipe", serving_quantity, "Servings")
+# Display of user serving desired quantity
+print("")
+print("Chocolate Chip Cookie Recipe")
+print("")
+print(Butter, "\t cups of butter")
+print(Granulated_sugar, "\t cups of sugar")
+print(Brown_sugar, "\t cups of brown sugar")
+print(Vanilla, "\t teaspoons of vanilla")
+print(Egg, "\t egg(s)")
+print(Flour, "\t cups of flour")
+print(Baking_soda, "\t teaspoons of baking soda")
+print(Salt, "\t teaspoons of salt")
+print(Chocolate_chips, "\t cups of chocolate chips")
+
+
+
+
+
+
+Example input solution:
+
+
+Chocolate Chip Cookie Recipe
+
+
+0.03125          cups of butter
+0.03125          cups of sugar
+0.015625          cups of brown sugar
+0.125          teaspoons of vanilla
+0.0625          egg(s)
+0.109375          cups of flour
+0.03125          teaspoons of baking soda
+0.03125          teaspoons of salt
+0.0625          cups of chocolate chips
+
+
+How many servings would you like?: 4
+
+
+Chocolate Chip Cookie Recipe 4.0 Servings
+
+
+Chocolate Chip Cookie Recipe
+
+
+0.125          cups of butter
+0.125          cups of sugar
+0.0625          cups of brown sugar
+0.5          teaspoons of vanilla
+0.25          egg(s)
+0.4375          cups of flour
+0.125          teaspoons of baking soda
+0.125          teaspoons of salt
+0.25          cups of chocolate chips
